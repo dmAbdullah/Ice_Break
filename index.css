@@ -1,0 +1,22 @@
+.header h1 {
+    font-weight: bold;
+    text-align: center;
+  }
+.name{
+    font-style: italic;
+    
+}
+
+.oc{
+    background-color: aqua;
+    padding: 2px;
+}
+
+.pc{
+    background-color:brown;
+    padding : 5px;
+    border-style: dotted;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+}
