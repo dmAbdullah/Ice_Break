@@ -24,3 +24,12 @@
     color: rgb(252, 0, 0);
     text-align: center;
 }
+
+table{
+    border-collapse: collapse;
+}
+
+td,th{
+border: 1px solid gainsboro;
+padding: 5px 15px ;
+}
