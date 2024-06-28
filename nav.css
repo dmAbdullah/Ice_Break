@@ -1,6 +1,8 @@
+nav > ul{
+    display: flex;
+}
 nav li{
     list-style: none;
-    display: inline;
     margin-right: 15px;
     padding: 5px 10px;    
 }
@@ -13,4 +15,13 @@ border-radius: 5px;
 nav li a{
     text-decoration: none;
     color: black;
+}
+nav li .dropdown{
+display: none;
+}
+nav li:hover .dropdown{
+    display: block;
+    position: absolute;
+    padding: 0;
+    background-color: rgb(241, 226, 206);
 }
